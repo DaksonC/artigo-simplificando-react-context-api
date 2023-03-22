@@ -111,6 +111,50 @@ function App() {
 export default App;
 ```
 
+Após prover o contexto no ```App.tsx``` está tudo pronto, basta importá-lo nos componentes e os dados serão providos. 
+
+Começando com a Home:
+- importe o ```useContext``` do React e o contexto que criamos na pasta ```UsersContext```.
+
+```js
+import { useContext } from 'react';
+import { UsersContext } from '../../contexts/UsersContext';
+```
+
+- desestruture o ```users``` dentro da função "Home" e passe como um argumanto para hook ```useContext```.
+
+```js
+const { users } = useContext(UsersContext)
+```
+
+Assim, podemos percorrer os dados com o "map" e ter acesso as informações dos usuários.
+
+```js
+{users.map(user => {
+        return (
+          <Content key={user.id}>
+            <h2>{user.name}</h2>
+            <h3>{user.email}</h3>
+          </Content>
+        )
+      })}
+```
+
+Seguindo esses passos que fizemos na página "Home" podemos reproduzi-los em qualquer outra página ou componente da nossa aplicação.
+Os dados renderizados:
+
+- Home
+<img src="https://user-images.githubusercontent.com/81385265/226933836-8b6bc291-47f6-431c-a851-ee8316685ea2.png" />
+
+- Users
+<img src="https://user-images.githubusercontent.com/81385265/226933386-81bd4702-8ff0-4881-882d-8a3ad7cd413a.png" />
+
+
+# Conclusão
+Usar a Context API do React com Typescript pode parecer complicado à primeira vista, mas é uma técnica poderosa para compartilhar dados entre componentes de forma eficiente e sem erros. Neste artigo, vimos como criar um contexto com Typescript, fornecer um valor para ele e consumir esse valor em um componente. Com esses conceitos básicos, você pode começar a construir aplicações mais complexas e escaláveis com o React e o Typescript.
+
+
+Repositório no GitHub: [DaksonC](https://github.com/DaksonC/artigo-simplificando-react-context-api/tree/main/my-app) 
 
 
 
