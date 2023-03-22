@@ -1,9 +1,9 @@
-<img src="https://user-images.githubusercontent.com/81385265/226909539-aa4886dd-f12c-4aa0-a9a5-2f5cd5162a96.png">
+<img src="https://user-images.githubusercontent.com/81385265/226909539-aa4886dd-f12c-4aa0-a9a5-2f5cd5162a96.png" />
 
 # Simplificando Context API no React + TypeScript
 A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes, sem precisar passar manualmente as propriedades através da hierarquia de componentes. A Context API permite que um componente “provê” um valor para um ou mais componentes “consumidores” em uma árvore de componentes.
 
-<img src="https://user-images.githubusercontent.com/81385265/226910397-d7158d27-f9c1-4cff-8766-20d46f9917ec.png" width="500">
+<img src="https://user-images.githubusercontent.com/81385265/226910397-d7158d27-f9c1-4cff-8766-20d46f9917ec.png" width="500" />
 
 ## Segundo a documentação do [React](https://pt-br.reactjs.org/docs/context.html#gatsby-focus-wrapper):
 Contexto (context) disponibiliza uma forma de passar dados entre a árvore de componentes sem precisar passar props manualmente em cada nível. Em uma aplicação típica do React, os dados são passados de cima para baixo (de pai para filho) via props, mas esse uso pode ser complicado para certos tipos de props (como preferências locais ou tema de UI), que são utilizadas por muitos componentes dentro da aplicação. Contexto (context) fornece a forma de compartilhar dados como esses, entre todos componentes da mesma árvore de componentes, sem precisar passar explicitamente props entre cada nível.
@@ -22,7 +22,7 @@ Tecnologias:
 - abra seu projeto no Visual Studio Code.
 - após instalar os módulos do Node com o comando  yarn.  
 você verá algo assim:
-<img src="https://user-images.githubusercontent.com/81385265/226915423-40085640-7e1b-4f2a-94a1-af15e692318f.png">
+<img src="https://user-images.githubusercontent.com/81385265/226915423-40085640-7e1b-4f2a-94a1-af15e692318f.png" />
 
 # Criando a Context API
 No arquivo  ```UsersContext.tsx```  dentro da pasta ```contexts```  adicione o seguinte código:

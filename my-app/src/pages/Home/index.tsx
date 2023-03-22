@@ -1,7 +1,7 @@
-import { useContext } from "react";
+import { useContext } from 'react';
 
-import { Container, Content, NavLink } from "./styles";
-import { UsersContext } from "../../contexts/UsersContext";
+import { Container, Content, NavLink } from './styles';
+import { UsersContext } from '../../contexts/UsersContext';
 
 export function Home() {
   const { users } = useContext(UsersContext)

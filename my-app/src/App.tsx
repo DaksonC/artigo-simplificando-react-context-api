@@ -1,5 +1,5 @@
-import { MyRoutes } from "./pages/MyRoutes"
-import { UsersProvider } from "./contexts/UsersContext"
+import { MyRoutes } from './pages/MyRoutes';
+import { UsersProvider } from './contexts/UsersContext';
 
 
 function App() {
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

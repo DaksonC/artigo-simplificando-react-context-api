@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavLink as NavLinkReact } from "react-router-dom";
+import { NavLink as NavLinkReact } from 'react-router-dom';
 
 export const Container = styled.div`
   color: #FFFFFF;

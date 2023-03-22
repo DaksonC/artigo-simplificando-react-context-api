@@ -1,7 +1,7 @@
-import { useContext } from "react";
+import { useContext } from 'react';
 
-import { Container, Content, NavLink } from "./styles";
-import { UsersContext } from "../../contexts/UsersContext";
+import { Container, Content, NavLink } from './styles';
+import { UsersContext } from '../../contexts/UsersContext';
 
 export function Users() {
   const { users } = useContext(UsersContext)
@@ -9,7 +9,7 @@ export function Users() {
   return (
     <Container>
       <h1>Users 👨🏻‍🦰</h1>
-      <NavLink to="/">
+      <NavLink to='/'>
         <button>Voltar à Home</button>
       </NavLink>
       {users.map(user => {
