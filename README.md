@@ -64,7 +64,7 @@ interface IUsersProviderProps {
 export const UsersContext = createContext({} as IUsersContextType);
 ```
 
-- nosso provedor que colocaremos em volta do componente pai que abrange os componentes filhos que você deseja compartilhar esse contexto. Quando queremos prover o contexto na aplicação toda, colocamos o nosso provedor em volta do  App.tsx  e é o que faremos aqui. 
+- nossa função ```UsersProvider``` que vai provedor as informações que precisamos compartilhar. Isso acontece ao colocaremos em volta do componente pai que abrange os componentes filhos. Quando queremos prover o contexto na aplicação toda, colocamos o nosso provedor em volta do  App.tsx  e é o que faremos já já. 
 
 ```js
 export function UsersProvider({ children }: IUsersProviderProps) {
