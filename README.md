@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/81385265/226909539-aa4886dd-f12c-4aa0-a9a5-2f5cd5162a96.png" />
 
-# Simplificando Context API no React + TypeScript
+# Simplificando Context API no React
 A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes, sem precisar passar manualmente as propriedades através da hierarquia de componentes. A Context API permite que um componente “provê” um valor para um ou mais componentes “consumidores” em uma árvore de componentes.
 
 <img src="https://user-images.githubusercontent.com/81385265/226910397-d7158d27-f9c1-4cff-8766-20d46f9917ec.png" width="500" />
