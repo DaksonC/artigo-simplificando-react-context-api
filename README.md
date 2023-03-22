@@ -154,7 +154,7 @@ Os dados renderizados:
 Usar a Context API do React com Typescript pode parecer complicado à primeira vista, mas é uma técnica poderosa para compartilhar dados entre componentes de forma eficiente e sem erros. Neste artigo, vimos como criar um contexto com Typescript, fornecer um valor para ele e consumir esse valor em um componente. Com esses conceitos básicos, você pode começar a construir aplicações mais complexas e escaláveis com o React e o Typescript.
 
 
-Repositório no GitHub: [DaksonC](https://github.com/DaksonC/artigo-simplificando-react-context-api/tree/main/my-app) 
+Repositório no GitHub: [@DaksonC](https://github.com/DaksonC/artigo-simplificando-react-context-api/tree/main/my-app) 
 
 
 
