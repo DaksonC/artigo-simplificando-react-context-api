@@ -20,8 +20,10 @@ Tecnologias:
 - abra seu terminal e vá à sua pasta de preferência.
 - digite o comando  ```yarn create vite my-app --template react-ts```  e pressione a tecla enter do seu teclado.
 - abra seu projeto no Visual Studio Code.
-- após instalar os módulos do Node com o comando  yarn.  
+- após instalar os módulos do Node com o comando  yarn. 
+ 
 você verá algo assim:
+
 <img src="https://user-images.githubusercontent.com/81385265/226915423-40085640-7e1b-4f2a-94a1-af15e692318f.png" />
 
 # Criando a Context API
