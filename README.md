@@ -92,7 +92,7 @@ export function UsersProvider({ children }: IUsersProviderProps) {
 }
 ```
 
-### Usaremos nosso provedor no ```App.tsx```   para  prover nosso contexto em toda aplicação. Lembrando que você pode usar onde lhe convenha.
+### Usaremos nosso provedor no ```App.tsx```   para  prover nosso contexto em toda aplicação. Lembrando que você pode usar onde lhe convier.
 
 ```js
 import { MyRoutes } from './pages/MyRoutes';
