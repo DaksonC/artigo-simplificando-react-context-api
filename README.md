@@ -66,7 +66,7 @@ interface IUsersProviderProps {
 export const UsersContext = createContext({} as IUsersContextType);
 ```
 
-- nossa função ```UsersProvider``` que vai fornecer as informações que precisamos compartilhar - que nesse casso estamos fornecendo uma requisição HTTP GET de todos usuários cadastrados. Isso acontece ao colocaremos em volta do componente pai que abrange os componentes filhos. Quando queremos prover o contexto na aplicação toda, colocamos o nosso provedor em volta do  App.tsx  e é o que faremos já já. 
+- nossa função ```UsersProvider``` que vai fornecer as informações que precisamos compartilhar - nesse caso estamos fornecendo uma requisição HTTP GET dos dados de todos usuários cadastrados. Isso acontece ao colocaremos em volta do componente pai que abrange os componentes filhos. Quando queremos prover o contexto na aplicação toda, colocamos o nosso provedor em volta do  App.tsx  e é o que faremos já já. 
 
 ```js
 export function UsersProvider({ children }: IUsersProviderProps) {
