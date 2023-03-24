@@ -15,6 +15,7 @@ Tecnologias:
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Json Server](https://www.npmjs.com/package/json-server)
 - [Styled Components](https://styled-components.com/)
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 
 ### Startar o projeto React usando Vite + TypeScript:
 - abra seu terminal e vá à sua pasta de preferência.
