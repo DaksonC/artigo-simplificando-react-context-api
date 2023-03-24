@@ -143,7 +143,8 @@ Assim, podemos percorrer os dados com o "map" e ter acesso as informações dos 
 ```
 
 Seguindo esses passos que fizemos na página "Home" podemos reproduzi-los em qualquer outra página ou componente da nossa aplicação.
-Os dados renderizados:
+
+### Os dados renderizados:
 
 - Home
 <img src="https://user-images.githubusercontent.com/81385265/226933836-8b6bc291-47f6-431c-a851-ee8316685ea2.png" />
