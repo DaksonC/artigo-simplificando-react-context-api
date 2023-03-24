@@ -26,7 +26,7 @@ você verá algo assim:
 
 <img src="https://user-images.githubusercontent.com/81385265/226915423-40085640-7e1b-4f2a-94a1-af15e692318f.png" />
 
-Na pasta ```src``` crie as subpasta ```pages/Home/index.tsx```, ```pages/Users/index.tsx``` e ```contexts/UsersContexts.tsx```.
+Na pasta ```src``` crie as subpastas ```pages/Home/index.tsx```, ```pages/Users/index.tsx``` e ```contexts/UsersContexts.tsx```.
 
 # Criando a Context API
 No arquivo  ```UsersContext.tsx```  dentro da pasta ```contexts```  adicione o seguinte código:
