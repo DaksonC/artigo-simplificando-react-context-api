@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/81385265/226909539-aa4886dd-f12c-4aa0-a9a5-2f5cd5162a96.png" />
 
 # Simplificando React Context API
-A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes, sem precisar passar manualmente as propriedades através da hierarquia de componentes. A Context API permite que um componente “provê” um valor para um ou mais componentes “consumidores” em uma árvore de componentes. Portanto, a Context API resolve o Prop Drilling. O Prop Drilling é uma etapa durante o processo de desenvolvimento em que há necessidade de acessar informações que estão em diferentes camadas da árvore de componentes React. Para exemplificar esse conceito, é possível observá-lo em ação ao passar propriedades de um componente para outro.
+A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes de forma mais eficiente, sem a necessidade de passar manualmente as propriedades através da hierarquia de componentes. Ao utilizar a Context API, um componente pode "prover" um valor para um ou mais componentes "consumidores" na árvore de componentes, evitando assim o Prop Drilling - etapa do processo de desenvolvimento em que é necessário acessar informações que estão em diferentes camadas da árvore de componentes React. Dessa forma, a Context API é uma solução prática para resolver o problema do Prop Drilling, que pode ser observado em ação ao passar propriedades de um componente para outro.
 
 <img src="https://user-images.githubusercontent.com/81385265/226910397-d7158d27-f9c1-4cff-8766-20d46f9917ec.png" width="500" />
 
